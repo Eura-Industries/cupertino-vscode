@@ -1,0 +1,52 @@
+{
+  "name": "cupertino-vscode",
+  "displayName": "Cupertino",
+  "description": "A SwiftUI-inspired Cupertino theme for Visual Studio Code with soft light and dark variants.",
+  "version": "1.3.0",
+  "publisher": "eura-industries",
+  "license": "MIT",
+  "icon": "images/cupertino-icon.png",
+  "homepage": "https://github.com/eura-industries/cupertino-vscode",
+  "bugs": {
+    "url": "https://github.com/eura-industries/cupertino-vscode/issues"
+  },
+  "galleryBanner": {
+    "color": "#F2F4F8",
+    "theme": "light"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eura-industries/cupertino-vscode.git"
+  },
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "cupertino",
+    "swiftui",
+    "ios",
+    "light",
+    "dark",
+    "theme"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cupertino Light",
+        "uiTheme": "vs",
+        "path": "./themes/cupertino-light-color-theme.json"
+      },
+      {
+        "label": "Cupertino Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cupertino-dark-color-theme.json"
+      }
+    ]
+  },
+  "devDependencies": {
+    "@vscode/vsce": "^3.7.1"
+  }
+}
