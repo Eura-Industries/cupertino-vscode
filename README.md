@@ -4,7 +4,9 @@ A SwiftUI-inspired VS Code theme pack using the Cupertino color palette.
 
 ## Preview
 
-![Cupertino Theme Preview](images/cupertino-preview.png)
+![Cupertino Light](images/preview-light.png)
+
+![Cupertino Dark](images/preview-dark.png)
 
 ## Included Themes
 

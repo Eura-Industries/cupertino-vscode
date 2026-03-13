@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file.
 
+## 1.3.1
+
+- Ajusted some colours 
+- Updated images to be real.
+- Added `made-by-eura` tag to VSCode marketplace tags
+- renamed theme modes
+
 ## 1.3.0
 
 - Added semantic token support for modern language servers.

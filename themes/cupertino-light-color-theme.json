@@ -159,14 +159,14 @@
     "terminal.ansiBrightRed": "#FF383C",
     "terminal.ansiBrightGreen": "#33C758",
     "terminal.ansiBrightYellow": "#FFCC00",
-    "terminal.ansiBrightBlue": "#6155F5",
+    "terminal.ansiBrightBlue": "#00C0E8",
     "terminal.ansiBrightMagenta": "#FF2D55",
     "terminal.ansiBrightCyan": "#0088FF",
     "terminal.ansiBrightWhite": "#FFFFFF",
 
     "button.background": "#0088FF",
     "button.foreground": "#FFFFFF",
-    "button.hoverBackground": "#6155F5",
+    "button.hoverBackground": "#00C0E8",
     "button.secondaryBackground": "#0088FF",
     "button.secondaryForeground": "#FFFFFF",
     "button.secondaryHoverBackground": "#0088FF",
@@ -207,7 +207,7 @@
         "keyword.operator.new"
       ],
       "settings": {
-        "foreground": "#6155F5"
+        "foreground": "#00C0E8"
       }
     },
     {
@@ -241,7 +241,7 @@
         "support.function"
       ],
       "settings": {
-        "foreground": "#6155F5"
+        "foreground": "#00C0E8"
       }
     },
     {
@@ -327,7 +327,7 @@
         "markup.italic"
       ],
       "settings": {
-        "foreground": "#6155F5"
+        "foreground": "#00C0E8"
       }
     },
     {
@@ -423,22 +423,22 @@
     "struct": "#0088FF",
     "interface": "#00C0E8",
     "enum": "#0088FF",
-    "typeParameter": "#6155F5",
+    "typeParameter": "#00C0E8",
     "parameter": "#AC7F5E",
     "variable": "#1F2328",
     "property": "#0088FF",
     "enumMember": "#AC7F5E",
-    "function": "#6155F5",
-    "method": "#6155F5",
+    "function": "#00C0E8",
+    "method": "#00C0E8",
     "macro": "#00C0E8",
     "decorator": "#0088FF",
-    "keyword": "#6155F5",
+    "keyword": "#00C0E8",
     "comment": "#8F8F94",
     "string": "#33C758",
     "number": "#FF8D28",
     "regexp": "#CB30E0",
     "operator": "#0088FF",
-    "label": "#6155F5",
+    "label": "#00C0E8",
     "variable.readonly": "#AC7F5E",
     "property.readonly": "#AC7F5E",
     "function.defaultLibrary": "#0088FF",
