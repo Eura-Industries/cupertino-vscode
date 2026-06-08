@@ -4,9 +4,7 @@ A SwiftUI-inspired VS Code theme pack using the Cupertino color palette.
 
 ## Preview
 
-![Cupertino Light](images/preview-light.png)
-
-![Cupertino Dark](images/preview-dark.png)
+![Cupertino Theme Preview](images/cupertino-preview.png)
 
 ## Included Themes
 
@@ -56,9 +54,9 @@ Semantic tokens and TextMate scopes are tuned for:
 1. Open this folder in VS Code.
 2. Press F5 to launch an Extension Development Host.
 3. Open the Command Palette and run `Preferences: Color Theme`.
-4. Select `Cupertino Light` or `Cupertino Dark`.
+4. Select `Cupertino Day` or `Cupertino Night`. Or one of the colourblind versions!
 
-If `Cupertino Dark` does not appear immediately after installing a new VSIX, run `Developer: Reload Window` once and reopen the color theme picker.
+If `Cupertino Night` or any of the colourblind versions does not appear immediately after installing a new VSIX, run `Developer: Reload Window` once and reopen the color theme picker.
 
 ## Package
 
@@ -73,3 +71,7 @@ If `Cupertino Dark` does not appear immediately after installing a new VSIX, run
 2. Login with vsce.
 3. Publish with:
    npx vsce publish
+
+## Install
+
+Grab the latest version from the vscode marketplace, or use the download link [here](https://dl.eura.dev/api/file?path=apps%2Fextentions%2FCupertino%2Fcupertino-latest.vsix). If using the downloaded version, go to the extentions tab, click the 3 dots at the top(next to refresh), and click Install from VSIX. 

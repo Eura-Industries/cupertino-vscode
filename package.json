@@ -1,14 +1,14 @@
 {
-  "name": "cupertino-vscode",
-  "displayName": "Cupertino",
+  "name": "cupertino-theme",
+  "displayName": "Cupertino for VSCode",
   "description": "A SwiftUI-inspired Cupertino theme for Visual Studio Code with soft light and dark variants.",
-  "version": "1.3.1",
-  "publisher": "EuraIndustries",
+  "version": "26.6.0",
+  "publisher": "JustEthan",
   "license": "MIT",
   "icon": "images/cupertino-icon.png",
-  "homepage": "https://github.com/eura-industries/cupertino-vscode",
+  "homepage": "https://github.com/JustEthanCodes/cupertino-vscode",
   "bugs": {
-    "url": "https://github.com/eura-industries/cupertino-vscode/issues"
+    "url": "https://github.com/JustEthanCodes/cupertino-vscode/issues"
   },
   "galleryBanner": {
     "color": "#F2F4F8",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/eura-industries/cupertino-vscode.git"
+    "url": "https://github.com/JustEthanCodes/cupertino-vscode.git"
   },
   "engines": {
     "vscode": "^1.85.0"
@@ -27,7 +27,6 @@
   "keywords": [
     "cupertino",
     "swiftui",
-    "made-by-eura",
     "ios",
     "light",
     "dark",
@@ -36,18 +35,41 @@
   "contributes": {
     "themes": [
       {
-        "label": "Cupertino Light Mode",
+        "label": "Cupertino Day",
         "uiTheme": "vs",
         "path": "./themes/cupertino-light-color-theme.json"
       },
       {
-        "label": "Cupertino Dark Mode",
+        "label": "Cupertino Night",
         "uiTheme": "vs-dark",
         "path": "./themes/cupertino-dark-color-theme.json"
+      },
+      {
+        "label": "Cupertino Day ( Blue-Yellow Colour Blind )",
+        "uiTheme": "vs",
+        "path": "./themes/cupertino-light-by-colourblind-color-theme.json"
+      },
+      {
+        "label": "Cupertino Night ( Blue - YellowColour Blind )",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cupertino-dark-by-colourblind-color-theme.json"
+      },
+      {
+        "label": "Cupertino Day ( Red - Green Colour Blind )",
+        "uiTheme": "vs",
+        "path": "./themes/cupertino-light-rg-colourblind-color-theme.json"
+      },
+      {
+        "label": "Cupertino Night ( Red - Green Colour Blind )",
+        "uiTheme": "vs-dark",
+        "path": "./themes/cupertino-dark-rg-colourblind-color-theme.json"
       }
     ]
   },
+  "scripts": {
+    "package": "npx vsce package"
+  },
   "devDependencies": {
-    "@vscode/vsce": "^3.7.1"
+    "@vscode/vsce": "^3.9.2"
   }
 }

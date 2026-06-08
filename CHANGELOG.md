@@ -1,14 +1,21 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## 26.6.0
+### Major Update
+Changes:
+- New versioning system
+  - Version numbers are now based on {year}.{month}.{patch}
+- Should be back on the VSCode marketplace soon, waiting for approval
+- Added Colourblind versions to the theme
+  - They can be accessed through the vscode theme picker
+- Changed names of themes:
+  - Cupertino Light is now Cupertino Day
+  - Cupertino Dark is now Cupertino Night
 
 ## 1.3.1
 
-- Ajusted some colours 
-- Updated images to be real.
-- Added `made-by-eura` tag to VSCode marketplace tags
-- renamed theme modes
-
+- Moved to JustEthanCodes
 ## 1.3.0
 
 - Added semantic token support for modern language servers.
